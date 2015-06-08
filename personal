@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My name is magik
+    </title>
+  </head>
+  <style>
+    a {
+      color: red;
+    }
+    h2 {
+    border-style: ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: violet;
+    }
+  </style>
+  <body>
+    <h1>
+      Why is this my name?
+    </h1>
+      <p><em>I don't really know.</em> But I'm just writing to fill up space and make it look realistic.</p>
+      <p>explanation. words and an array of grammatic punctuations</p>
+    <table>
+      <tr>
+        <td>US</td>
+        <td>Somoza</td>
+      </tr>
+      <tr>
+        <td>USSR</td>
+        <td>Sandinistas</td>
+      </tr>
+    </table>
+    <h2>
+      main testing paragraph
+    </h2>
+      <p><strong>because</strong></p>
+      <p style="color: navy">Explanation dos. More words and extensive paragraphs</p>
+      <p style="font-size: 20px">really. i dont know</p>
+      <ul>
+        <li>what are lists?</li>
+        <li>related words</li>
+        <li>similar topic</li>
+      </ul>
+      <p><a href="http://reddit.com">Reddit</a></p>
+      <p><a href="http://imdb.com">IMDb</a></p>
+      <img src="http://www.hollywoodchicago.com/sites/default/files/memento.jpg" width="300" height="220">
+      <p>Unrelated picture of Guy Pierce and Joe Pantoliano stuck in a perpetual loop of anger, distrust, memory loss, and tatoos.</p>
+    <p>Have you ever noticed that Laurence Fishburne almost always plays a fatherly (or at least guiding) figure in his films?</p>
+    <p>The obvious film that comes to mind is <em>The Matrix.</em> Morpheus pretty much teaches Neo everything about the real world and the history behind the Matrix. Similarly, in the movie <em>Higher Learning</em>, Fishburne as Professor Phipps helped Malik through a very difficult obstacles.</p>
+      <img src="http://i.ytimg.com/vi/KZ4gEeUo2GU/maxresdefault.jpg" width="300">
+    <p>Such as very angry white peopole...</p>
+    <p style="color: green">And of course when you get into movies involving neo-nazis, two movies that will probably come up are The Believer with Ryan Gosling and American History X (both really good movies).</p>
+    <img src="http://celebrityfitnesstraining.com/wp-content/uploads/2011/08/edward-norton-x.jpg" width="300">
+    <p>Edward Norton seems pretty happy that he just shot two black dudes.</p>
+  </body>
+</html>
