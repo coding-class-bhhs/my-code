@@ -1,59 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      My name is magik
-    </title>
-  </head>
-  <style>
+<div class="container">
+<head>
+  <title>
+    My name is magik
+  </title>
+</head>
+<style>
     a {
       color: red;
     }
+    
     h2 {
-    border-style: ridge;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: violet;
+      border-style: ridge;
+      border-width: 3px;
+      border-left-width: 10px;
+      border-right-width: 10px;
+      border-color: violet;
     }
-  </style>
-  <body>
-    <h1>
-      Why is this my name?
-    </h1>
-      <p><em>I don't really know.</em> But I'm just writing to fill up space and make it look realistic.</p>
-      <p>explanation. words and an array of grammatic punctuations</p>
-    <table>
-      <tr>
-        <td>US</td>
-        <td>Somoza</td>
-      </tr>
-      <tr>
-        <td>USSR</td>
-        <td>Sandinistas</td>
-      </tr>
-    </table>
-    <h2>
-      main testing paragraph
-    </h2>
-      <p><strong>because</strong></p>
-      <p style="color: navy">Explanation dos. More words and extensive paragraphs</p>
-      <p style="font-size: 20px">really. i dont know</p>
-      <ul>
-        <li>what are lists?</li>
-        <li>related words</li>
-        <li>similar topic</li>
-      </ul>
-      <p><a href="http://reddit.com">Reddit</a></p>
-      <p><a href="http://imdb.com">IMDb</a></p>
-      <img src="http://www.hollywoodchicago.com/sites/default/files/memento.jpg" width="300" height="220">
-      <p>Unrelated picture of Guy Pierce and Joe Pantoliano stuck in a perpetual loop of anger, distrust, memory loss, and tatoos.</p>
-    <p>Have you ever noticed that Laurence Fishburne almost always plays a fatherly (or at least guiding) figure in his films?</p>
-    <p>The obvious film that comes to mind is <em>The Matrix.</em> Morpheus pretty much teaches Neo everything about the real world and the history behind the Matrix. Similarly, in the movie <em>Higher Learning</em>, Fishburne as Professor Phipps helped Malik through a very difficult obstacles.</p>
-      <img src="http://i.ytimg.com/vi/KZ4gEeUo2GU/maxresdefault.jpg" width="300">
-    <p>Such as very angry white peopole...</p>
-    <p style="color: green">And of course when you get into movies involving neo-nazis, two movies that will probably come up are The Believer with Ryan Gosling and American History X (both really good movies).</p>
-    <img src="http://celebrityfitnesstraining.com/wp-content/uploads/2011/08/edward-norton-x.jpg" width="300">
-    <p>Edward Norton seems pretty happy that he just shot two black dudes.</p>
-  </body>
+    #navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    }
+    #navigation2 {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100;
+    }
+    body {
+      background-color: yellow;
+    }
+    h1 {
+      background-color: orange;
+    }
+    .container {width:900px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:1px solid #cccccc;
+      background:#ffffff;
+    }
+</style>
+<body>  <h1 align="center" style="color: blue"><strong>Incredibly Clever Title</strong></h1>
+  <p><em>I don't really know.</em> But I'm just writing to fill up space and make it look realistic.</p>
+  <p>explanation. words and an array of grammatic punctuations</p>
+  <h3>
+      Examples of when US foreign policy was aggressive and imperialistic:
+    </h3>
+  <table>
+    <tr>
+      <td>Reagan</td>
+      <td>Somoza</td>
+    </tr>
+    <tr>
+      <td>Eisenhower</td>
+      <td>Diem</td>
+    </tr>
+    <tr>
+      <td>Truman</td>
+      <td>Batista</td>
+  </table>
+  <p>In an ordered list, these dictators/dynasties in chronological order would be:</p>
+  <ol>
+    <li>Somoza</li>
+    <li>Diem</li>
+    <li>Batista</li>
+  </ol>
+  <img align="right" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKORGPwxCuzt8dxmdxSpEce6zvYpDBVu-PvoHcPqCUghUA7T4J" width="150">
+  <iframe width="640" height="390" src="https://www.youtube.com/embed/o0u4M6vppCI" frameborder="0" allowfullscreen></iframe>
+  <h2 align="center">Main testing paragraph</h2>
+  <div id="navigation2">
+  <img src="data:image/jpeg;base64,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" width="200" height="150">
+  </div>
+  <p><strong>because</strong></p>
+  <p style="color: navy">Explanation dos. More words and extensive paragraphs</p>
+  <p style="font-size: 20px">really. i dont know</p>
+  <ul>
+    <li>what are lists?</li>
+    <li>related words</li>
+    <li>similar topic</li>
+  </ul>
+  <div id="navigation">
+  <p><a href="http://reddit.com">Reddit</a></p>
+  <p><a href="http://imdb.com">IMDb</a></p>
+  </div>
+  <img src="http://www.hollywoodchicago.com/sites/default/files/memento.jpg" width="300" height="220">
+  <p>Unrelated picture of Guy Pierce and Joe Pantoliano stuck in a perpetual loop of anger, distrust, memory loss, and tatoos.</p>
+  <p>Have you ever noticed that Laurence Fishburne almost always plays a fatherly (or at least guiding) figure in his films?</p>
+  <p>The <b>obvious</b> film that comes to mind is <em>The Matrix.</em> Morpheus pretty much teaches Neo everything about the real world and the history behind the Matrix. Similarly, in the movie <em>Higher Learning</em>, Fishburne as Professor Phipps helped
+    Malik through a very difficult obstacles.</p>
+  <img src="http://i.ytimg.com/vi/KZ4gEeUo2GU/maxresdefault.jpg" width="300">
+  <p>Such as very angry white peopole...</p>
+  <p style="color: green">And of course when you get into movies involving neo-nazis, two movies that will probably come up are <em>The Believer</em> with Ryan Gosling and <em>American History X</em> (both really good movies).</p>
+  <img src="http://celebrityfitnesstraining.com/wp-content/uploads/2011/08/edward-norton-x.jpg" width="300">
+  <p>Edward Norton seems pretty happy that he just shot two black dudes.</p>
+</div>
+</body>
 </html>
